@@ -6,7 +6,6 @@ export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
 
-  // Enhance glassmorphism effect on scroll
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -15,7 +14,6 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close the mobile menu automatically when the route changes
   useEffect(() => {
     setIsOpen(false);
   }, [location]);
@@ -38,14 +36,12 @@ export default function Navbar() {
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           
-          {/* Logo Section - Redirects to hero */}
           <div className="shrink-0 flex items-center">
             <a href="/#hero" className="text-xl md:text-2xl font-bold tracking-tighter text-white">
               GD <span className="text-cyan-500">Dental Lab</span>
             </a>
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
               <a
@@ -58,7 +54,6 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -67,7 +62,7 @@ export default function Navbar() {
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
-              {/* Hamburger / Close Icon */}
+ 
               {!isOpen ? (
                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -82,7 +77,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu Dropdown */}
+
       <div
         className={`md:hidden transition-all duration-300 ease-in-out overflow-hidden rounded-b-2xl bg-gray-950/50 border-t border-white/5 ${
           isOpen ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0 border-t-transparent'
