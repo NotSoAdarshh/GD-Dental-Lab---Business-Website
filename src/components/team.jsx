@@ -44,6 +44,7 @@ export default function OurTeam() {
               role: 'Core Management & Operations', 
               initials: 'SD'
             }
+            // i will add the photoes later
           ].map((member, index) => (
             <div 
               key={index} 
