@@ -8,6 +8,7 @@ import Hero from './components/hero'
 import OurStory from './components/story'
 import OurTeam from './components/team'
 import Services from './components/services'
+import Contact from './components/contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <OurStory></OurStory>
       <OurTeam></OurTeam>
       <Services></Services>
+      <Contact></Contact>
     </div>
   )
 }
