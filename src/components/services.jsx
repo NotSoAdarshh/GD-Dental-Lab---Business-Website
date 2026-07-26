@@ -9,7 +9,7 @@ export default function Services() {
         className="absolute inset-0 z-0 bg-cover bg-center bg-fixed"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1598885511440-218a568ce3d1?q=80&w=2070&auto=format&fit=crop')" }}
       >
-        <div className="absolute inset-0 bg-gray-950/85 bg-gradient-to-t from-gray-950 via-gray-950/80 to-gray-950"></div>
+        <div className="absolute inset-0 bg-gray-950/85 bg-linear-to-t from-gray-950 via-gray-950/80 to-gray-950"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -17,7 +17,7 @@ export default function Services() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Services</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mb-6"></div>
+          <div className="w-24 h-1 bg-linear-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mb-6"></div>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto drop-shadow-md">
             Comprehensive dental laboratory solutions combining traditional artistry with cutting-edge digital technology.
           </p>
@@ -87,7 +87,7 @@ export default function Services() {
               className="group relative bg-gray-900/40 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:bg-gray-800/60 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_15px_40px_-15px_rgba(6,182,212,0.3)] hover:border-cyan-500/40"
             >
               {/* Background Glow Effect on Hover */}
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-blue-500/5 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute inset-0 bg-linear-to-br from-cyan-500/5 to-blue-500/5 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
               <div className="relative z-10">
                 <div className="w-16 h-16 rounded-2xl bg-gray-800/50 flex items-center justify-center border border-white/5 mb-6 group-hover:scale-110 transition-transform duration-500 group-hover:border-cyan-500/30 group-hover:bg-cyan-900/20">

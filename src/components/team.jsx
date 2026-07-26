@@ -4,14 +4,14 @@ export default function OurTeam() {
   return (
     <section id="team" className="relative py-24 bg-gray-950 overflow-hidden">
       {/* Background elements for depth */}
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-900/10 rounded-full blur-[100px] pointer-events-none"></div>
+      <div className="absolute top-0 right-0 w-125 h-125 bg-blue-900/10 rounded-full blur-[100px] pointer-events-none"></div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Meet Our Experts</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mb-6"></div>
+          <div className="w-24 h-1 bg-linear-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mb-6"></div>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             The skilled technicians and leadership driving precision and quality in every restoration.
           </p>

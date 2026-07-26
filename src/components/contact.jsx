@@ -9,7 +9,7 @@ export default function Contact() {
         className="absolute inset-0 z-0 bg-cover bg-center bg-fixed"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop')" }}
       >
-        <div className="absolute inset-0 bg-gray-950/90 bg-gradient-to-b from-gray-950 via-gray-950/85 to-gray-950"></div>
+        <div className="absolute inset-0 bg-gray-950/90 bg-linear-to-b from-gray-950 via-gray-950/85 to-gray-950"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -17,7 +17,7 @@ export default function Contact() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Get In Touch</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mb-6"></div>
+          <div className="w-24 h-1 bg-linear-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mb-6"></div>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto drop-shadow-md">
             Ready to elevate your dental restorations? Contact us today to discuss cases, request a pickup, or visit our laboratory.
           </p>
@@ -82,7 +82,7 @@ export default function Contact() {
           </div>
 
           {/* Right Column: Google Maps Iframe Container */}
-          <div className="bg-gray-900/40 backdrop-blur-2xl border border-white/10 rounded-3xl p-4 shadow-2xl relative min-h-[400px] flex flex-col">
+          <div className="bg-gray-900/40 backdrop-blur-2xl border border-white/10 rounded-3xl p-4 shadow-2xl relative min-h-100 flex flex-col">
             
             {/* Subtle glow behind the map */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/10 rounded-full blur-[80px] pointer-events-none"></div>
@@ -91,7 +91,7 @@ export default function Contact() {
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14927.958904470795!2d77.00103901738282!3d20.71064180000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd72faaab2903a5%3A0xfea226f681525883!2sG.D%20Dental%20Lab!5e0!3m2!1sen!2sin!4v1785071817989!5m2!1sen!2sin" 
                 title="GD Dental Lab Location Map"
-                className="w-full h-full min-h-[400px]" 
+                className="w-full h-full min-h-100" 
                 style={{ border: 0 }} 
                 allowFullScreen 
                 loading="lazy" 

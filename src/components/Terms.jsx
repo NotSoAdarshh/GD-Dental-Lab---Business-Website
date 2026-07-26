@@ -5,14 +5,14 @@ export default function PrivacyPolicy() {
     <div className="min-h-screen bg-gray-950 pt-32 pb-24 relative overflow-hidden">
       
       {/* Subtle Background Elements */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-cyan-900/10 rounded-full blur-[100px] pointer-events-none"></div>
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-200 h-100 bg-cyan-900/10 rounded-full blur-[100px] pointer-events-none"></div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Privacy Policy</h1>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mb-6"></div>
+          <div className="w-24 h-1 bg-linear-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mb-6"></div>
           <p className="text-gray-400 text-lg">
             Last Updated: July 26, 2026
           </p>

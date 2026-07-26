@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="relative bg-gray-950 border-t border-white/10 pt-16 pb-8 overflow-hidden">
       
       {/* Subtle cyan background glow to keep the premium feel */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-cyan-900/10 rounded-t-[100%] blur-[80px] pointer-events-none"></div>
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-200 h-75 bg-cyan-900/10 rounded-t-[100%] blur-[80px] pointer-events-none"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">

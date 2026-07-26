@@ -39,7 +39,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16 md:h-20">
           
           {/* Logo Section - Redirects to hero */}
-          <div className="flex-shrink-0 flex items-center">
+          <div className="shrink-0 flex items-center">
             <a href="/#hero" className="text-xl md:text-2xl font-bold tracking-tighter text-white">
               GD <span className="text-cyan-500">Dental Lab</span>
             </a>

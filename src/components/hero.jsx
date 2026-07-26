@@ -10,14 +10,14 @@ export default function Hero() {
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop')" }}
       >
         {/* Dark gradient overlay: Darker at top/bottom for nav readability, slightly clearer in center */}
-        <div className="absolute inset-0 bg-gray-950/75 bg-gradient-to-b from-gray-950/90 via-gray-950/60 to-gray-950/90" />
+        <div className="absolute inset-0 bg-gray-950/75 bg-linear-to-b from-gray-950/90 via-gray-950/60 to-gray-950/90" />
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
         
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold text-white leading-tight tracking-tight mb-8 drop-shadow-lg">
           Precision crafting for <br className="hidden md:block" />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+          <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-blue-500">
             perfect smiles.
           </span>
         </h1>
