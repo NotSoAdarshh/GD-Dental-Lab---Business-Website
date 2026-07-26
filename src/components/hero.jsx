@@ -1,4 +1,5 @@
 import React from 'react';
+import BG from '../images/BG.png'
 
 export default function Hero() {
   return (
@@ -6,10 +7,10 @@ export default function Hero() {
       
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop')" }}
+        style={{ backgroundImage: "url('https://img.magnific.com/premium-photo/artificial-replacement-teeth-dark-table_926199-2970912.jpg')" }}
       >
         
-        <div className="absolute inset-0 bg-gray-950/75 bg-linear-to-b from-gray-950/90 via-gray-950/60 to-gray-950/90" />
+        <div className="absolute inset-0 bg-gray-950/2 bg-linear-to-b from-gray-950/90 via-gray-950/60 to-gray-950/90" />
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
