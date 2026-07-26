@@ -3,7 +3,6 @@ import React from 'react';
 export default function Footer() {
   return (
     <footer className="relative bg-gray-950 border-t border-white/10 pt-16 pb-8 overflow-hidden">
-      {/* Added bg-gray-950 as a solid background color */}
       
       {/* Subtle cyan background glow to keep the premium feel */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-cyan-900/10 rounded-t-[100%] blur-[80px] pointer-events-none"></div>
@@ -42,10 +41,10 @@ export default function Footer() {
             <h4 className="text-white font-semibold text-lg mb-6">Quick Links</h4>
             <ul className="space-y-3">
               {[
-                { name: 'Home', href: '#hero' },
-                { name: 'Our Story', href: '#story' },
-                { name: 'Our Team', href: '#team' },
-                { name: 'Services', href: '#services' }
+                { name: 'Home', href: '/#hero' },
+                { name: 'Our Story', href: '/#story' },
+                { name: 'Our Team', href: '/#team' },
+                { name: 'Services', href: '/#services' }
               ].map((link) => (
                 <li key={link.name}>
                   <a 
@@ -103,8 +102,9 @@ export default function Footer() {
             © {new Date().getFullYear()} GD Dental Lab. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <a href="#" className="text-gray-500 hover:text-cyan-400 text-sm transition-colors">Privacy Policy</a>
-            <a href="#" className="text-gray-500 hover:text-cyan-400 text-sm transition-colors">Terms of Service</a>
+            {/* Added proper routes for the newly created pages */}
+            <a href="/privacy-policy" className="text-gray-500 hover:text-cyan-400 text-sm transition-colors">Privacy Policy</a>
+            <a href="/terms-of-service" className="text-gray-500 hover:text-cyan-400 text-sm transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>
