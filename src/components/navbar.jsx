@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import Logo from '../images/GD_Logo.png'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,8 @@ export default function Navbar() {
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           
-          <div className="shrink-0 flex items-center">
+          <div className="shrink-0 flex items-center gap-4">
+            <img src={Logo} alt="GD_Logo" className='h-10 w-10' />
             <a href="/#hero" className="text-xl md:text-2xl font-bold tracking-tighter text-white">
               GD <span className="text-cyan-500">Dental Lab</span>
             </a>
