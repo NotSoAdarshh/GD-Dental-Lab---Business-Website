@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section id="contact" className="relative py-24 min-h-screen flex items-center overflow-hidden">
       
-      {/* Background Image with Dark Overlay */}
+      
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-fixed"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop')" }}
@@ -14,7 +14,7 @@ export default function Contact() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         
-        {/* Section Header */}
+      
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Get In Touch</h2>
           <div className="w-24 h-1 bg-linear-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mb-6"></div>
@@ -25,10 +25,9 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-stretch">
           
-          {/* Left Column: Contact Information Cards */}
+          
           <div className="space-y-6 flex flex-col justify-center">
             
-            {/* Phone Card */}
             <div className="flex items-start gap-6 p-6 bg-gray-900/40 backdrop-blur-xl border border-white/10 rounded-3xl hover:bg-gray-800/60 hover:border-cyan-500/30 transition-all duration-300 shadow-lg group">
               <div className="w-14 h-14 rounded-2xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/20 group-hover:bg-cyan-500/20 group-hover:scale-110 transition-all shrink-0">
                 <svg className="w-6 h-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -45,7 +44,7 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Email Card */}
+            
             <div className="flex items-start gap-6 p-6 bg-gray-900/40 backdrop-blur-xl border border-white/10 rounded-3xl hover:bg-gray-800/60 hover:border-cyan-500/30 transition-all duration-300 shadow-lg group">
               <div className="w-14 h-14 rounded-2xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/20 group-hover:bg-cyan-500/20 group-hover:scale-110 transition-all shrink-0">
                 <svg className="w-6 h-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -60,7 +59,7 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Address Card */}
+            
             <div className="flex items-start gap-6 p-6 bg-gray-900/40 backdrop-blur-xl border border-white/10 rounded-3xl hover:bg-gray-800/60 hover:border-cyan-500/30 transition-all duration-300 shadow-lg group">
               <div className="w-14 h-14 rounded-2xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/20 group-hover:bg-cyan-500/20 group-hover:scale-110 transition-all shrink-0">
                 <svg className="w-6 h-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -81,10 +80,10 @@ export default function Contact() {
 
           </div>
 
-          {/* Right Column: Google Maps Iframe Container */}
+         
           <div className="bg-gray-900/40 backdrop-blur-2xl border border-white/10 rounded-3xl p-4 shadow-2xl relative min-h-100 flex flex-col">
             
-            {/* Subtle glow behind the map */}
+            
             <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/10 rounded-full blur-[80px] pointer-events-none"></div>
 
             <div className="relative z-10 flex-1 w-full h-full rounded-2xl overflow-hidden border border-white/10 bg-gray-950">

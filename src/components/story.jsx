@@ -3,12 +3,11 @@ import React from 'react';
 export default function OurStory() {
   return (
     <section id="story" className="relative py-24 bg-gray-950 overflow-hidden">
-      {/* Subtle background glow to maintain the dark tech aesthetic */}
+      
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 bg-cyan-900/20 rounded-full blur-[120px] pointer-events-none"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Story</h2>
           <div className="w-24 h-1 bg-linear-to-r from-cyan-400 to-blue-500 mx-auto rounded-full"></div>
@@ -16,7 +15,7 @@ export default function OurStory() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           
-          {/* Left Column: The Narrative */}
+          
           <div className="space-y-6">
             <p className="text-xl text-gray-300 leading-relaxed">
               Founded in <span className="text-white font-semibold">1998</span> by <span className="text-white font-semibold">Gopal Deshmukh</span> in the heart of <span className="text-cyan-400 font-semibold">Akola, Maharashtra</span>, GD Dental Lab began with a singular vision: to empower dental professionals with precision-crafted, high-quality restorations.
@@ -29,10 +28,9 @@ export default function OurStory() {
             </p>
           </div>
 
-          {/* Right Column: Glassmorphism Highlight Cards */}
+        
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            
-            {/* Card 1: Established */}
+  
             <div className="bg-gray-900/40 backdrop-blur-md border border-white/10 rounded-2xl p-6 shadow-xl hover:bg-gray-800/60 hover:border-cyan-500/30 transition-all duration-300">
               <div className="w-12 h-12 rounded-full bg-cyan-500/20 flex items-center justify-center border border-cyan-500/30 mb-4">
                 <svg className="w-6 h-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -43,7 +41,6 @@ export default function OurStory() {
               <p className="text-gray-400">1998</p>
             </div>
 
-            {/* Card 2: Founder */}
             <div className="bg-gray-900/40 backdrop-blur-md border border-white/10 rounded-2xl p-6 shadow-xl hover:bg-gray-800/60 hover:border-cyan-500/30 transition-all duration-300">
               <div className="w-12 h-12 rounded-full bg-cyan-500/20 flex items-center justify-center border border-cyan-500/30 mb-4">
                 <svg className="w-6 h-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -54,7 +51,7 @@ export default function OurStory() {
               <p className="text-gray-400">Gopal Deshmukh</p>
             </div>
 
-            {/* Card 3: Headquarters */}
+  
             <div className="bg-gray-900/40 backdrop-blur-md border border-white/10 rounded-2xl p-6 shadow-xl hover:bg-gray-800/60 hover:border-cyan-500/30 transition-all duration-300">
               <div className="w-12 h-12 rounded-full bg-cyan-500/20 flex items-center justify-center border border-cyan-500/30 mb-4">
                 <svg className="w-6 h-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -66,7 +63,7 @@ export default function OurStory() {
               <p className="text-gray-400">Akola, Maharashtra</p>
             </div>
 
-            {/* Card 4: Regions Served */}
+
             <div className="bg-gray-900/40 backdrop-blur-md border border-white/10 rounded-2xl p-6 shadow-xl hover:bg-gray-800/60 hover:border-cyan-500/30 transition-all duration-300">
               <div className="w-12 h-12 rounded-full bg-cyan-500/20 flex items-center justify-center border border-cyan-500/30 mb-4">
                 <svg className="w-6 h-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">

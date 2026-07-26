@@ -4,7 +4,7 @@ export default function Services() {
   return (
     <section id="services" className="relative py-24 min-h-screen flex items-center overflow-hidden">
       
-      {/* Background Image with Dark Overlay */}
+      
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-fixed"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1598885511440-218a568ce3d1?q=80&w=2070&auto=format&fit=crop')" }}
@@ -14,7 +14,7 @@ export default function Services() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         
-        {/* Section Header */}
+        
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Our Services</h2>
           <div className="w-24 h-1 bg-linear-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mb-6"></div>
@@ -23,7 +23,6 @@ export default function Services() {
           </p>
         </div>
 
-        {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
             {

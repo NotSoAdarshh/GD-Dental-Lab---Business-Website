@@ -3,13 +3,12 @@ import React from 'react';
 export default function Hero() {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center pt-24 pb-20 overflow-hidden">
-      {/* Background Image with Dark Overlay */}
-      {/* Replace the URL with your actual teeth/lab background image */}
+      
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop')" }}
       >
-        {/* Dark gradient overlay: Darker at top/bottom for nav readability, slightly clearer in center */}
+        
         <div className="absolute inset-0 bg-gray-950/75 bg-linear-to-b from-gray-950/90 via-gray-950/60 to-gray-950/90" />
       </div>
 
@@ -26,7 +25,7 @@ export default function Hero() {
           Partnering with dental professionals to deliver high-quality, aesthetic, and durable restorations using state-of-the-art CAD/CAM technology.
         </p>
         
-        {/* Call to Action Buttons */}
+        
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a 
             href="#services" 
@@ -34,8 +33,7 @@ export default function Hero() {
           >
             Explore Services
           </a>
-          
-          {/* Glassmorphism Button */}
+       
           <a 
             href="#contact" 
             className="w-full sm:w-auto px-10 py-4 rounded-xl bg-gray-900/30 hover:bg-gray-900/50 border border-white/10 backdrop-blur-md text-white font-semibold text-lg transition-all shadow-xl hover:border-white/20"

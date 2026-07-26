@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           
-          {/* Brand Column */}
+          
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <img src={Logo} alt="GD_Logo" className='w-10 h-10'/>
@@ -24,7 +24,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Quick Links Column */}
+          
           <div>
             <h4 className="text-white font-semibold text-lg mb-6">Quick Links</h4>
             <ul className="space-y-3">
@@ -47,7 +47,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info Column */}
+         
           <div>
             <h4 className="text-white font-semibold text-lg mb-6">Contact Us</h4>
             <ul className="space-y-4">
@@ -84,7 +84,6 @@ export default function Footer() {
 
         </div>
 
-        {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-sm">
             © {new Date().getFullYear()} GD Dental Lab. All rights reserved.

@@ -4,12 +4,12 @@ export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-gray-950 pt-32 pb-24 relative overflow-hidden">
       
-      {/* Subtle Background Elements */}
+     
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-200 h-100 bg-cyan-900/10 rounded-full blur-[100px] pointer-events-none"></div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Header */}
+        
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Privacy Policy</h1>
           <div className="w-24 h-1 bg-linear-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mb-6"></div>
@@ -18,7 +18,6 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        {/* Policy Content Card */}
         <div className="bg-gray-900/40 backdrop-blur-xl border border-white/10 rounded-3xl p-8 md:p-12 shadow-2xl space-y-8 text-gray-300 leading-relaxed">
           
           <section>
