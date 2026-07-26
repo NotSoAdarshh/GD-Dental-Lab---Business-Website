@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../images/GD_Logo.png'
 
 export default function Footer() {
   return (
@@ -13,20 +14,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              {/* Minimalist Tooth Icon */}
-              <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                viewBox="0 0 24 24" 
-                fill="none" 
-                stroke="currentColor" 
-                className="w-8 h-8 text-cyan-400"
-                strokeWidth="2" 
-                strokeLinecap="round" 
-                strokeLinejoin="round"
-              >
-                <path d="M12 21.5V15"/>
-                <path d="M12 21.5c-1.5 0-2-2-2-2L9 12c-1-1-2-1.5-2.5-3.5S7 4 9 4c1 0 2.5.5 3 2 0 0 1-2 2-2s2 4.5 1.5 6.5S14 11 13 12l-1 7.5s-.5 2-2 2z"/>
-              </svg>
+              <img src={Logo} alt="GD_Logo" className='w-10 h-10'/>
               <span className="text-white font-bold text-2xl tracking-wider">
                 GD Dental Lab
               </span>
