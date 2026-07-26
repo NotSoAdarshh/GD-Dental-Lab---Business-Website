@@ -38,9 +38,9 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16 md:h-20">
           
           <div className="shrink-0 flex items-center gap-4">
-            <img src={Logo} alt="GD_Logo" className='h-10 w-10' />
-            <a href="/#hero" className="text-xl md:text-2xl font-bold tracking-tighter text-white">
-              GD <span className="text-cyan-500">Dental Lab</span>
+            <a href="/#hero" className="text-xl flex md:text-2xl font-bold tracking-tighter text-white">
+              <img src={Logo} alt="GD_Logo" className='h-10 w-10 mr-2' />
+              GD <span className="text-cyan-500 ml-1">Dental Lab</span>
             </a>
           </div>
 
